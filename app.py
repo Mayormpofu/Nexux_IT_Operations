@@ -31,9 +31,6 @@ CONNECTION_STRING = (
 def get_connection():
     return pyodbc.connect(CONNECTION_STRING)
 
-# --------------------------------------------------
-# LOAD DATA
-# --------------------------------------------------
 
 @st.cache_data
 def load_data():
@@ -56,64 +53,101 @@ def load_data():
         FROM Tickets
     """
 
-    dataframe = pd.read_sql(query, connection)
-
-    return dataframe
+    return pd.read_sql(query, connection)
 
 
 # --------------------------------------------------
-# APPLICATION
+# LOAD DATA
 # --------------------------------------------------
 
 try:
 
     df = load_data()
 
+    # --------------------------------------------------
+    # SIDEBAR
+    # --------------------------------------------------
+
+    st.sidebar.title("NEXUS")
+    st.sidebar.caption("IT Operations Intelligence")
+
+    st.sidebar.divider()
+
+    st.sidebar.subheader("Filters")
+
+    department_filter = st.sidebar.multiselect(
+        "Department",
+        sorted(df["Department"].unique())
+    )
+
+    priority_filter = st.sidebar.multiselect(
+        "Priority",
+        sorted(df["Priority"].unique())
+    )
+
+    status_filter = st.sidebar.multiselect(
+        "Status",
+        sorted(df["Status"].unique())
+    )
+
+    filtered_df = df.copy()
+
+    if department_filter:
+        filtered_df = filtered_df[
+            filtered_df["Department"].isin(department_filter)
+        ]
+
+    if priority_filter:
+        filtered_df = filtered_df[
+            filtered_df["Priority"].isin(priority_filter)
+        ]
+
+    if status_filter:
+        filtered_df = filtered_df[
+            filtered_df["Status"].isin(status_filter)
+        ]
+
+    # --------------------------------------------------
+    # HEADER
+    # --------------------------------------------------
+
     st.title("NEXUS")
-    st.caption("Enterprise IT Operations Intelligence Platform")
+    st.subheader("Enterprise IT Operations Intelligence Platform")
+
+    st.caption(
+        "Real-time service desk monitoring, operational analytics "
+        "and technician performance intelligence."
+    )
 
     st.divider()
 
     # --------------------------------------------------
-    # KPI CALCULATIONS
+    # KPIs
     # --------------------------------------------------
 
-    total_tickets = len(df)
+    total_tickets = len(filtered_df)
 
     open_tickets = len(
-        df[df["Status"] == "Open"]
+        filtered_df[filtered_df["Status"] == "Open"]
     )
 
     resolved_tickets = len(
-        df[df["Status"] == "Resolved"]
+        filtered_df[filtered_df["Status"] == "Resolved"]
     )
 
-    avg_resolution = df["ResolutionHours"].mean()
+    avg_resolution = filtered_df["ResolutionHours"].mean()
 
     sla_breaches = len(
-        df[df["ResolutionHours"] > 8]
+        filtered_df[filtered_df["ResolutionHours"] > 8]
     )
-
-    # --------------------------------------------------
-    # KPI DASHBOARD
-    # --------------------------------------------------
 
     col1, col2, col3, col4, col5 = st.columns(5)
 
-    col1.metric(
-        "Total Tickets",
-        total_tickets
-    )
+    col1.metric("Total Tickets", total_tickets)
 
-    col2.metric(
-        "Open Tickets",
-        open_tickets
-    )
+    col2.metric("Open Tickets", open_tickets)
 
-    col3.metric(
-        "Resolved Tickets",
-        resolved_tickets
-    )
+    col3.metric("Resolved Tickets", resolved_tickets)
 
     col4.metric(
         "Avg Resolution",
@@ -126,52 +160,6 @@ try:
     )
 
     st.divider()
-
-    # --------------------------------------------------
-    # FILTERS
-    # --------------------------------------------------
-
-    st.subheader("Operational Filters")
-
-    col1, col2, col3 = st.columns(3)
-
-    department_filter = col1.multiselect(
-        "Department",
-        sorted(df["Department"].unique())
-    )
-
-    priority_filter = col2.multiselect(
-        "Priority",
-        sorted(df["Priority"].unique())
-    )
-
-    status_filter = col3.multiselect(
-        "Status",
-        sorted(df["Status"].unique())
-    )
-
-    filtered_df = df.copy()
-
-    if department_filter:
-        filtered_df = filtered_df[
-            filtered_df["Department"].isin(
-                department_filter
-            )
-        ]
-
-    if priority_filter:
-        filtered_df = filtered_df[
-            filtered_df["Priority"].isin(
-                priority_filter
-            )
-        ]
-
-    if status_filter:
-        filtered_df = filtered_df[
-            filtered_df["Status"].isin(
-                status_filter
-            )
-        ]
 
     # --------------------------------------------------
     # ANALYTICS
@@ -202,7 +190,7 @@ try:
         st.bar_chart(priority_data)
 
     # --------------------------------------------------
-    # DEPARTMENT ANALYSIS
+    # DEPARTMENT
     # --------------------------------------------------
 
     st.subheader("Tickets by Department")
@@ -244,7 +232,7 @@ try:
     )
 
     # --------------------------------------------------
-    # TICKET DATA
+    # SERVICE DESK
     # --------------------------------------------------
 
     st.subheader("Service Desk Tickets")
@@ -255,8 +243,20 @@ try:
         hide_index=True
     )
 
+    # --------------------------------------------------
+    # SYSTEM STATUS
+    # --------------------------------------------------
+
+    st.divider()
+
+    st.success(
+        "● NEXUS operational — SQL Server connection active"
+    )
+
 except Exception as error:
 
-    st.error("Unable to connect to the NEXUS SQL Server database.")
+    st.error(
+        "Unable to connect to the NEXUS SQL Server database."
+    )
 
     st.code(str(error))
