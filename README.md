@@ -1,5 +1,5 @@
 # Nexux_IT_Operations
-# NEXUS — Enterprise IT Operations Intelligence Platform
+# NEXUS Enterprise IT Operations Intelligence Platform
 
 NEXUS is an enterprise-style IT Operations Intelligence Platform designed to analyze IT service desk activity, monitor operational performance, identify SLA breaches, and provide actionable insights through a professional analytics dashboard.
 
