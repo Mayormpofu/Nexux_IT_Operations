@@ -1,4 +1,8 @@
-# Nexux_IT_Operations
+# NEXUX IT Operations Intelligence Platform
+
+🚀 **[Live Demo](https://nexuxitoperations-jrhmafqemcpa4rwiksenng.streamlit.app/)**
+
+Enterprise IT Operations Intelligence Platform built with SQL Server, Python, Pandas, and Streamlit.
 # NEXUS Enterprise IT Operations Intelligence Platform
 
 NEXUS is an enterprise-style IT Operations Intelligence Platform designed to analyze IT service desk activity, monitor operational performance, identify SLA breaches, and provide actionable insights through a professional analytics dashboard.
