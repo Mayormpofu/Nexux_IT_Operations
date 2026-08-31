@@ -1,0 +1,200 @@
+﻿1,Employee 1,Human Resources,Network,High,Sarah Williams,Resolved,2026-08-31 09:23:26.600,2026-08-31 11:23:26.600,2.00,2
+2,Employee 2,IT,Software,Medium,David Smith,Resolved,2026-08-31 03:23:26.600,2026-08-31 06:23:26.600,3.00,3
+3,Employee 3,Sales,Access,Low,Michael Brown,Resolved,2026-08-30 21:23:26.603,2026-08-31 01:23:26.603,4.00,4
+4,Employee 4,Operations,Security,Critical,Jessica Davis,Resolved,2026-08-30 15:23:26.610,2026-08-30 20:23:26.610,5.00,5
+5,Employee 5,Marketing,Hardware,High,Alex Johnson,In Progress,2026-08-30 09:23:26.610,2026-08-30 15:23:26.610,6.00,1
+6,Employee 6,Finance,Network,Medium,Sarah Williams,Resolved,2026-08-30 03:23:26.613,2026-08-30 10:23:26.613,7.00,2
+7,Employee 7,Human Resources,Software,Low,David Smith,Open,2026-08-29 21:23:26.613,NULL,NULL,NULL
+8,Employee 8,IT,Access,Critical,Michael Brown,Resolved,2026-08-29 15:23:26.613,2026-08-30 00:23:26.613,9.00,4
+9,Employee 9,Sales,Security,High,Jessica Davis,Resolved,2026-08-29 09:23:26.613,2026-08-29 19:23:26.613,10.00,5
+10,Employee 10,Operations,Hardware,Medium,Alex Johnson,In Progress,2026-08-29 03:23:26.613,2026-08-29 14:23:26.613,11.00,1
+11,Employee 11,Marketing,Network,Low,Sarah Williams,Resolved,2026-08-28 21:23:26.617,2026-08-29 09:23:26.617,12.00,2
+12,Employee 12,Finance,Software,Critical,David Smith,Resolved,2026-08-28 15:23:26.617,2026-08-28 16:23:26.617,1.00,3
+13,Employee 13,Human Resources,Access,High,Michael Brown,Resolved,2026-08-28 09:23:26.617,2026-08-28 11:23:26.617,2.00,4
+14,Employee 14,IT,Security,Medium,Jessica Davis,Open,2026-08-28 03:23:26.617,NULL,NULL,NULL
+15,Employee 15,Sales,Hardware,Low,Alex Johnson,In Progress,2026-08-27 21:23:26.623,2026-08-28 01:23:26.623,4.00,1
+16,Employee 16,Operations,Network,Critical,Sarah Williams,Resolved,2026-08-27 15:23:26.630,2026-08-27 20:23:26.630,5.00,2
+17,Employee 17,Marketing,Software,High,David Smith,Resolved,2026-08-27 09:23:26.633,2026-08-27 15:23:26.633,6.00,3
+18,Employee 18,Finance,Access,Medium,Michael Brown,Resolved,2026-08-27 03:23:26.633,2026-08-27 10:23:26.633,7.00,4
+19,Employee 19,Human Resources,Security,Low,Jessica Davis,Resolved,2026-08-26 21:23:26.633,2026-08-27 05:23:26.633,8.00,5
+20,Employee 20,IT,Hardware,Critical,Alex Johnson,In Progress,2026-08-26 15:23:26.633,2026-08-27 00:23:26.633,9.00,1
+21,Employee 21,Sales,Network,High,Sarah Williams,Open,2026-08-26 09:23:26.633,NULL,NULL,NULL
+22,Employee 22,Operations,Software,Medium,David Smith,Resolved,2026-08-26 03:23:26.633,2026-08-26 14:23:26.633,11.00,3
+23,Employee 23,Marketing,Access,Low,Michael Brown,Resolved,2026-08-25 21:23:26.633,2026-08-26 09:23:26.633,12.00,4
+24,Employee 24,Finance,Security,Critical,Jessica Davis,Resolved,2026-08-25 15:23:26.643,2026-08-25 16:23:26.643,1.00,5
+25,Employee 25,Human Resources,Hardware,High,Alex Johnson,In Progress,2026-08-25 09:23:26.643,2026-08-25 11:23:26.643,2.00,1
+26,Employee 26,IT,Network,Medium,Sarah Williams,Resolved,2026-08-25 03:23:26.647,2026-08-25 06:23:26.647,3.00,2
+27,Employee 27,Sales,Software,Low,David Smith,Resolved,2026-08-24 21:23:26.647,2026-08-25 01:23:26.647,4.00,3
+28,Employee 28,Operations,Access,Critical,Michael Brown,Open,2026-08-24 15:23:26.647,NULL,NULL,NULL
+29,Employee 29,Marketing,Security,High,Jessica Davis,Resolved,2026-08-24 09:23:26.647,2026-08-24 15:23:26.647,6.00,5
+30,Employee 30,Finance,Hardware,Medium,Alex Johnson,In Progress,2026-08-24 03:23:26.647,2026-08-24 10:23:26.647,7.00,1
+31,Employee 31,Human Resources,Network,Low,Sarah Williams,Resolved,2026-08-23 21:23:26.650,2026-08-24 05:23:26.650,8.00,2
+32,Employee 32,IT,Software,Critical,David Smith,Resolved,2026-08-23 15:23:26.657,2026-08-24 00:23:26.657,9.00,3
+33,Employee 33,Sales,Access,High,Michael Brown,Resolved,2026-08-23 09:23:26.660,2026-08-23 19:23:26.660,10.00,4
+34,Employee 34,Operations,Security,Medium,Jessica Davis,Resolved,2026-08-23 03:23:26.660,2026-08-23 14:23:26.660,11.00,5
+35,Employee 35,Marketing,Hardware,Low,Alex Johnson,Open,2026-08-22 21:23:26.660,NULL,NULL,NULL
+36,Employee 36,Finance,Network,Critical,Sarah Williams,Resolved,2026-08-22 15:23:26.660,2026-08-22 16:23:26.660,1.00,2
+37,Employee 37,Human Resources,Software,High,David Smith,Resolved,2026-08-22 09:23:26.660,2026-08-22 11:23:26.660,2.00,3
+38,Employee 38,IT,Access,Medium,Michael Brown,Resolved,2026-08-22 03:23:26.660,2026-08-22 06:23:26.660,3.00,4
+39,Employee 39,Sales,Security,Low,Jessica Davis,Resolved,2026-08-21 21:23:26.660,2026-08-22 01:23:26.660,4.00,5
+40,Employee 40,Operations,Hardware,Critical,Alex Johnson,In Progress,2026-08-21 15:23:26.660,2026-08-21 20:23:26.660,5.00,1
+41,Employee 41,Marketing,Network,High,Sarah Williams,Resolved,2026-08-21 09:23:26.660,2026-08-21 15:23:26.660,6.00,2
+42,Employee 42,Finance,Software,Medium,David Smith,Open,2026-08-21 03:23:26.660,NULL,NULL,NULL
+43,Employee 43,Human Resources,Access,Low,Michael Brown,Resolved,2026-08-20 21:23:26.663,2026-08-21 05:23:26.663,8.00,4
+44,Employee 44,IT,Security,Critical,Jessica Davis,Resolved,2026-08-20 15:23:26.663,2026-08-21 00:23:26.663,9.00,5
+45,Employee 45,Sales,Hardware,High,Alex Johnson,In Progress,2026-08-20 09:23:26.663,2026-08-20 19:23:26.663,10.00,1
+46,Employee 46,Operations,Network,Medium,Sarah Williams,Resolved,2026-08-20 03:23:26.663,2026-08-20 14:23:26.663,11.00,2
+47,Employee 47,Marketing,Software,Low,David Smith,Resolved,2026-08-19 21:23:26.663,2026-08-20 09:23:26.663,12.00,3
+48,Employee 48,Finance,Access,Critical,Michael Brown,Resolved,2026-08-19 15:23:26.663,2026-08-19 16:23:26.663,1.00,4
+49,Employee 49,Human Resources,Security,High,Jessica Davis,Open,2026-08-19 09:23:26.663,NULL,NULL,NULL
+50,Employee 50,IT,Hardware,Medium,Alex Johnson,In Progress,2026-08-19 03:23:26.663,2026-08-19 06:23:26.663,3.00,1
+51,Employee 51,Sales,Network,Low,Sarah Williams,Resolved,2026-08-18 21:23:26.663,2026-08-19 01:23:26.663,4.00,2
+52,Employee 52,Operations,Software,Critical,David Smith,Resolved,2026-08-18 15:23:26.663,2026-08-18 20:23:26.663,5.00,3
+53,Employee 53,Marketing,Access,High,Michael Brown,Resolved,2026-08-18 09:23:26.663,2026-08-18 15:23:26.663,6.00,4
+54,Employee 54,Finance,Security,Medium,Jessica Davis,Resolved,2026-08-18 03:23:26.663,2026-08-18 10:23:26.663,7.00,5
+55,Employee 55,Human Resources,Hardware,Low,Alex Johnson,In Progress,2026-08-17 21:23:26.663,2026-08-18 05:23:26.663,8.00,1
+56,Employee 56,IT,Network,Critical,Sarah Williams,Open,2026-08-17 15:23:26.663,NULL,NULL,NULL
+57,Employee 57,Sales,Software,High,David Smith,Resolved,2026-08-17 09:23:26.667,2026-08-17 19:23:26.667,10.00,3
+58,Employee 58,Operations,Access,Medium,Michael Brown,Resolved,2026-08-17 03:23:26.667,2026-08-17 14:23:26.667,11.00,4
+59,Employee 59,Marketing,Security,Low,Jessica Davis,Resolved,2026-08-16 21:23:26.667,2026-08-17 09:23:26.667,12.00,5
+60,Employee 60,Finance,Hardware,Critical,Alex Johnson,In Progress,2026-08-16 15:23:26.667,2026-08-16 16:23:26.667,1.00,1
+61,Employee 61,Human Resources,Network,High,Sarah Williams,Resolved,2026-08-16 09:23:26.667,2026-08-16 11:23:26.667,2.00,2
+62,Employee 62,IT,Software,Medium,David Smith,Resolved,2026-08-16 03:23:26.667,2026-08-16 06:23:26.667,3.00,3
+63,Employee 63,Sales,Access,Low,Michael Brown,Open,2026-08-15 21:23:26.667,NULL,NULL,NULL
+64,Employee 64,Operations,Security,Critical,Jessica Davis,Resolved,2026-08-15 15:23:26.667,2026-08-15 20:23:26.667,5.00,5
+65,Employee 65,Marketing,Hardware,High,Alex Johnson,In Progress,2026-08-15 09:23:26.667,2026-08-15 15:23:26.667,6.00,1
+66,Employee 66,Finance,Network,Medium,Sarah Williams,Resolved,2026-08-15 03:23:26.667,2026-08-15 10:23:26.667,7.00,2
+67,Employee 67,Human Resources,Software,Low,David Smith,Resolved,2026-08-14 21:23:26.667,2026-08-15 05:23:26.667,8.00,3
+68,Employee 68,IT,Access,Critical,Michael Brown,Resolved,2026-08-14 15:23:26.667,2026-08-15 00:23:26.667,9.00,4
+69,Employee 69,Sales,Security,High,Jessica Davis,Resolved,2026-08-14 09:23:26.667,2026-08-14 19:23:26.667,10.00,5
+70,Employee 70,Operations,Hardware,Medium,Alex Johnson,Open,2026-08-14 03:23:26.667,NULL,NULL,NULL
+71,Employee 71,Marketing,Network,Low,Sarah Williams,Resolved,2026-08-13 21:23:26.667,2026-08-14 09:23:26.667,12.00,2
+72,Employee 72,Finance,Software,Critical,David Smith,Resolved,2026-08-13 15:23:26.667,2026-08-13 16:23:26.667,1.00,3
+73,Employee 73,Human Resources,Access,High,Michael Brown,Resolved,2026-08-13 09:23:26.667,2026-08-13 11:23:26.667,2.00,4
+74,Employee 74,IT,Security,Medium,Jessica Davis,Resolved,2026-08-13 03:23:26.667,2026-08-13 06:23:26.667,3.00,5
+75,Employee 75,Sales,Hardware,Low,Alex Johnson,In Progress,2026-08-12 21:23:26.670,2026-08-13 01:23:26.670,4.00,1
+76,Employee 76,Operations,Network,Critical,Sarah Williams,Resolved,2026-08-12 15:23:26.670,2026-08-12 20:23:26.670,5.00,2
+77,Employee 77,Marketing,Software,High,David Smith,Open,2026-08-12 09:23:26.670,NULL,NULL,NULL
+78,Employee 78,Finance,Access,Medium,Michael Brown,Resolved,2026-08-12 03:23:26.670,2026-08-12 10:23:26.670,7.00,4
+79,Employee 79,Human Resources,Security,Low,Jessica Davis,Resolved,2026-08-11 21:23:26.670,2026-08-12 05:23:26.670,8.00,5
+80,Employee 80,IT,Hardware,Critical,Alex Johnson,In Progress,2026-08-11 15:23:26.670,2026-08-12 00:23:26.670,9.00,1
+81,Employee 81,Sales,Network,High,Sarah Williams,Resolved,2026-08-11 09:23:26.670,2026-08-11 19:23:26.670,10.00,2
+82,Employee 82,Operations,Software,Medium,David Smith,Resolved,2026-08-11 03:23:26.670,2026-08-11 14:23:26.670,11.00,3
+83,Employee 83,Marketing,Access,Low,Michael Brown,Resolved,2026-08-10 21:23:26.670,2026-08-11 09:23:26.670,12.00,4
+84,Employee 84,Finance,Security,Critical,Jessica Davis,Open,2026-08-10 15:23:26.670,NULL,NULL,NULL
+85,Employee 85,Human Resources,Hardware,High,Alex Johnson,In Progress,2026-08-10 09:23:26.670,2026-08-10 11:23:26.670,2.00,1
+86,Employee 86,IT,Network,Medium,Sarah Williams,Resolved,2026-08-10 03:23:26.670,2026-08-10 06:23:26.670,3.00,2
+87,Employee 87,Sales,Software,Low,David Smith,Resolved,2026-08-09 21:23:26.670,2026-08-10 01:23:26.670,4.00,3
+88,Employee 88,Operations,Access,Critical,Michael Brown,Resolved,2026-08-09 15:23:26.670,2026-08-09 20:23:26.670,5.00,4
+89,Employee 89,Marketing,Security,High,Jessica Davis,Resolved,2026-08-09 09:23:26.670,2026-08-09 15:23:26.670,6.00,5
+90,Employee 90,Finance,Hardware,Medium,Alex Johnson,In Progress,2026-08-09 03:23:26.670,2026-08-09 10:23:26.670,7.00,1
+91,Employee 91,Human Resources,Network,Low,Sarah Williams,Open,2026-08-08 21:23:26.670,NULL,NULL,NULL
+92,Employee 92,IT,Software,Critical,David Smith,Resolved,2026-08-08 15:23:26.670,2026-08-09 00:23:26.670,9.00,3
+93,Employee 93,Sales,Access,High,Michael Brown,Resolved,2026-08-08 09:23:26.670,2026-08-08 19:23:26.670,10.00,4
+94,Employee 94,Operations,Security,Medium,Jessica Davis,Resolved,2026-08-08 03:23:26.673,2026-08-08 14:23:26.673,11.00,5
+95,Employee 95,Marketing,Hardware,Low,Alex Johnson,In Progress,2026-08-07 21:23:26.673,2026-08-08 09:23:26.673,12.00,1
+96,Employee 96,Finance,Network,Critical,Sarah Williams,Resolved,2026-08-07 15:23:26.673,2026-08-07 16:23:26.673,1.00,2
+97,Employee 97,Human Resources,Software,High,David Smith,Resolved,2026-08-07 09:23:26.673,2026-08-07 11:23:26.673,2.00,3
+98,Employee 98,IT,Access,Medium,Michael Brown,Open,2026-08-07 03:23:26.673,NULL,NULL,NULL
+99,Employee 99,Sales,Security,Low,Jessica Davis,Resolved,2026-08-06 21:23:26.673,2026-08-07 01:23:26.673,4.00,5
+100,Employee 100,Operations,Hardware,Critical,Alex Johnson,In Progress,2026-08-06 15:23:26.673,2026-08-06 20:23:26.673,5.00,1
+101,Employee 101,Marketing,Network,High,Sarah Williams,Resolved,2026-08-06 09:23:26.673,2026-08-06 15:23:26.673,6.00,2
+102,Employee 102,Finance,Software,Medium,David Smith,Resolved,2026-08-06 03:23:26.673,2026-08-06 10:23:26.673,7.00,3
+103,Employee 103,Human Resources,Access,Low,Michael Brown,Resolved,2026-08-05 21:23:26.673,2026-08-06 05:23:26.673,8.00,4
+104,Employee 104,IT,Security,Critical,Jessica Davis,Resolved,2026-08-05 15:23:26.673,2026-08-06 00:23:26.673,9.00,5
+105,Employee 105,Sales,Hardware,High,Alex Johnson,Open,2026-08-05 09:23:26.673,NULL,NULL,NULL
+106,Employee 106,Operations,Network,Medium,Sarah Williams,Resolved,2026-08-05 03:23:26.673,2026-08-05 14:23:26.673,11.00,2
+107,Employee 107,Marketing,Software,Low,David Smith,Resolved,2026-08-04 21:23:26.673,2026-08-05 09:23:26.673,12.00,3
+108,Employee 108,Finance,Access,Critical,Michael Brown,Resolved,2026-08-04 15:23:26.673,2026-08-04 16:23:26.673,1.00,4
+109,Employee 109,Human Resources,Security,High,Jessica Davis,Resolved,2026-08-04 09:23:26.673,2026-08-04 11:23:26.673,2.00,5
+110,Employee 110,IT,Hardware,Medium,Alex Johnson,In Progress,2026-08-04 03:23:26.677,2026-08-04 06:23:26.677,3.00,1
+111,Employee 111,Sales,Network,Low,Sarah Williams,Resolved,2026-08-03 21:23:26.677,2026-08-04 01:23:26.677,4.00,2
+112,Employee 112,Operations,Software,Critical,David Smith,Open,2026-08-03 15:23:26.677,NULL,NULL,NULL
+113,Employee 113,Marketing,Access,High,Michael Brown,Resolved,2026-08-03 09:23:26.677,2026-08-03 15:23:26.677,6.00,4
+114,Employee 114,Finance,Security,Medium,Jessica Davis,Resolved,2026-08-03 03:23:26.677,2026-08-03 10:23:26.677,7.00,5
+115,Employee 115,Human Resources,Hardware,Low,Alex Johnson,In Progress,2026-08-02 21:23:26.677,2026-08-03 05:23:26.677,8.00,1
+116,Employee 116,IT,Network,Critical,Sarah Williams,Resolved,2026-08-02 15:23:26.677,2026-08-03 00:23:26.677,9.00,2
+117,Employee 117,Sales,Software,High,David Smith,Resolved,2026-08-02 09:23:26.677,2026-08-02 19:23:26.677,10.00,3
+118,Employee 118,Operations,Access,Medium,Michael Brown,Resolved,2026-08-02 03:23:26.677,2026-08-02 14:23:26.677,11.00,4
+119,Employee 119,Marketing,Security,Low,Jessica Davis,Open,2026-08-01 21:23:26.677,NULL,NULL,NULL
+120,Employee 120,Finance,Hardware,Critical,Alex Johnson,In Progress,2026-08-01 15:23:26.677,2026-08-01 16:23:26.677,1.00,1
+121,Employee 121,Human Resources,Network,High,Sarah Williams,Resolved,2026-08-01 09:23:26.677,2026-08-01 11:23:26.677,2.00,2
+122,Employee 122,IT,Software,Medium,David Smith,Resolved,2026-08-01 03:23:26.677,2026-08-01 06:23:26.677,3.00,3
+123,Employee 123,Sales,Access,Low,Michael Brown,Resolved,2026-07-31 21:23:26.677,2026-08-01 01:23:26.677,4.00,4
+124,Employee 124,Operations,Security,Critical,Jessica Davis,Resolved,2026-07-31 15:23:26.677,2026-07-31 20:23:26.677,5.00,5
+125,Employee 125,Marketing,Hardware,High,Alex Johnson,In Progress,2026-07-31 09:23:26.677,2026-07-31 15:23:26.677,6.00,1
+126,Employee 126,Finance,Network,Medium,Sarah Williams,Open,2026-07-31 03:23:26.677,NULL,NULL,NULL
+127,Employee 127,Human Resources,Software,Low,David Smith,Resolved,2026-07-30 21:23:26.677,2026-07-31 05:23:26.677,8.00,3
+128,Employee 128,IT,Access,Critical,Michael Brown,Resolved,2026-07-30 15:23:26.677,2026-07-31 00:23:26.677,9.00,4
+129,Employee 129,Sales,Security,High,Jessica Davis,Resolved,2026-07-30 09:23:26.677,2026-07-30 19:23:26.677,10.00,5
+130,Employee 130,Operations,Hardware,Medium,Alex Johnson,In Progress,2026-07-30 03:23:26.680,2026-07-30 14:23:26.680,11.00,1
+131,Employee 131,Marketing,Network,Low,Sarah Williams,Resolved,2026-07-29 21:23:26.680,2026-07-30 09:23:26.680,12.00,2
+132,Employee 132,Finance,Software,Critical,David Smith,Resolved,2026-07-29 15:23:26.680,2026-07-29 16:23:26.680,1.00,3
+133,Employee 133,Human Resources,Access,High,Michael Brown,Open,2026-07-29 09:23:26.680,NULL,NULL,NULL
+134,Employee 134,IT,Security,Medium,Jessica Davis,Resolved,2026-07-29 03:23:26.680,2026-07-29 06:23:26.680,3.00,5
+135,Employee 135,Sales,Hardware,Low,Alex Johnson,In Progress,2026-07-28 21:23:26.680,2026-07-29 01:23:26.680,4.00,1
+136,Employee 136,Operations,Network,Critical,Sarah Williams,Resolved,2026-07-28 15:23:26.680,2026-07-28 20:23:26.680,5.00,2
+137,Employee 137,Marketing,Software,High,David Smith,Resolved,2026-07-28 09:23:26.680,2026-07-28 15:23:26.680,6.00,3
+138,Employee 138,Finance,Access,Medium,Michael Brown,Resolved,2026-07-28 03:23:26.680,2026-07-28 10:23:26.680,7.00,4
+139,Employee 139,Human Resources,Security,Low,Jessica Davis,Resolved,2026-07-27 21:23:26.680,2026-07-28 05:23:26.680,8.00,5
+140,Employee 140,IT,Hardware,Critical,Alex Johnson,Open,2026-07-27 15:23:26.680,NULL,NULL,NULL
+141,Employee 141,Sales,Network,High,Sarah Williams,Resolved,2026-07-27 09:23:26.680,2026-07-27 19:23:26.680,10.00,2
+142,Employee 142,Operations,Software,Medium,David Smith,Resolved,2026-07-27 03:23:26.680,2026-07-27 14:23:26.680,11.00,3
+143,Employee 143,Marketing,Access,Low,Michael Brown,Resolved,2026-07-26 21:23:26.680,2026-07-27 09:23:26.680,12.00,4
+144,Employee 144,Finance,Security,Critical,Jessica Davis,Resolved,2026-07-26 15:23:26.680,2026-07-26 16:23:26.680,1.00,5
+145,Employee 145,Human Resources,Hardware,High,Alex Johnson,In Progress,2026-07-26 09:23:26.680,2026-07-26 11:23:26.680,2.00,1
+146,Employee 146,IT,Network,Medium,Sarah Williams,Resolved,2026-07-26 03:23:26.680,2026-07-26 06:23:26.680,3.00,2
+147,Employee 147,Sales,Software,Low,David Smith,Open,2026-07-25 21:23:26.680,NULL,NULL,NULL
+148,Employee 148,Operations,Access,Critical,Michael Brown,Resolved,2026-07-25 15:23:26.680,2026-07-25 20:23:26.680,5.00,4
+149,Employee 149,Marketing,Security,High,Jessica Davis,Resolved,2026-07-25 09:23:26.680,2026-07-25 15:23:26.680,6.00,5
+150,Employee 150,Finance,Hardware,Medium,Alex Johnson,In Progress,2026-07-25 03:23:26.680,2026-07-25 10:23:26.680,7.00,1
+151,Employee 151,Human Resources,Network,Low,Sarah Williams,Resolved,2026-07-24 21:23:26.680,2026-07-25 05:23:26.680,8.00,2
+152,Employee 152,IT,Software,Critical,David Smith,Resolved,2026-07-24 15:23:26.680,2026-07-25 00:23:26.680,9.00,3
+153,Employee 153,Sales,Access,High,Michael Brown,Resolved,2026-07-24 09:23:26.680,2026-07-24 19:23:26.680,10.00,4
+154,Employee 154,Operations,Security,Medium,Jessica Davis,Open,2026-07-24 03:23:26.680,NULL,NULL,NULL
+155,Employee 155,Marketing,Hardware,Low,Alex Johnson,In Progress,2026-07-23 21:23:26.680,2026-07-24 09:23:26.680,12.00,1
+156,Employee 156,Finance,Network,Critical,Sarah Williams,Resolved,2026-07-23 15:23:26.683,2026-07-23 16:23:26.683,1.00,2
+157,Employee 157,Human Resources,Software,High,David Smith,Resolved,2026-07-23 09:23:26.683,2026-07-23 11:23:26.683,2.00,3
+158,Employee 158,IT,Access,Medium,Michael Brown,Resolved,2026-07-23 03:23:26.683,2026-07-23 06:23:26.683,3.00,4
+159,Employee 159,Sales,Security,Low,Jessica Davis,Resolved,2026-07-22 21:23:26.683,2026-07-23 01:23:26.683,4.00,5
+160,Employee 160,Operations,Hardware,Critical,Alex Johnson,In Progress,2026-07-22 15:23:26.683,2026-07-22 20:23:26.683,5.00,1
+161,Employee 161,Marketing,Network,High,Sarah Williams,Open,2026-07-22 09:23:26.683,NULL,NULL,NULL
+162,Employee 162,Finance,Software,Medium,David Smith,Resolved,2026-07-22 03:23:26.683,2026-07-22 10:23:26.683,7.00,3
+163,Employee 163,Human Resources,Access,Low,Michael Brown,Resolved,2026-07-21 21:23:26.683,2026-07-22 05:23:26.683,8.00,4
+164,Employee 164,IT,Security,Critical,Jessica Davis,Resolved,2026-07-21 15:23:26.683,2026-07-22 00:23:26.683,9.00,5
+165,Employee 165,Sales,Hardware,High,Alex Johnson,In Progress,2026-07-21 09:23:26.683,2026-07-21 19:23:26.683,10.00,1
+166,Employee 166,Operations,Network,Medium,Sarah Williams,Resolved,2026-07-21 03:23:26.683,2026-07-21 14:23:26.683,11.00,2
+167,Employee 167,Marketing,Software,Low,David Smith,Resolved,2026-07-20 21:23:26.683,2026-07-21 09:23:26.683,12.00,3
+168,Employee 168,Finance,Access,Critical,Michael Brown,Open,2026-07-20 15:23:26.683,NULL,NULL,NULL
+169,Employee 169,Human Resources,Security,High,Jessica Davis,Resolved,2026-07-20 09:23:26.683,2026-07-20 11:23:26.683,2.00,5
+170,Employee 170,IT,Hardware,Medium,Alex Johnson,In Progress,2026-07-20 03:23:26.683,2026-07-20 06:23:26.683,3.00,1
+171,Employee 171,Sales,Network,Low,Sarah Williams,Resolved,2026-07-19 21:23:26.683,2026-07-20 01:23:26.683,4.00,2
+172,Employee 172,Operations,Software,Critical,David Smith,Resolved,2026-07-19 15:23:26.683,2026-07-19 20:23:26.683,5.00,3
+173,Employee 173,Marketing,Access,High,Michael Brown,Resolved,2026-07-19 09:23:26.683,2026-07-19 15:23:26.683,6.00,4
+174,Employee 174,Finance,Security,Medium,Jessica Davis,Resolved,2026-07-19 03:23:26.683,2026-07-19 10:23:26.683,7.00,5
+175,Employee 175,Human Resources,Hardware,Low,Alex Johnson,Open,2026-07-18 21:23:26.690,NULL,NULL,NULL
+176,Employee 176,IT,Network,Critical,Sarah Williams,Resolved,2026-07-18 15:23:26.703,2026-07-19 00:23:26.703,9.00,2
+177,Employee 177,Sales,Software,High,David Smith,Resolved,2026-07-18 09:23:26.707,2026-07-18 19:23:26.707,10.00,3
+178,Employee 178,Operations,Access,Medium,Michael Brown,Resolved,2026-07-18 03:23:26.707,2026-07-18 14:23:26.707,11.00,4
+179,Employee 179,Marketing,Security,Low,Jessica Davis,Resolved,2026-07-17 21:23:26.707,2026-07-18 09:23:26.707,12.00,5
+180,Employee 180,Finance,Hardware,Critical,Alex Johnson,In Progress,2026-07-17 15:23:26.710,2026-07-17 16:23:26.710,1.00,1
+181,Employee 181,Human Resources,Network,High,Sarah Williams,Resolved,2026-07-17 09:23:26.710,2026-07-17 11:23:26.710,2.00,2
+182,Employee 182,IT,Software,Medium,David Smith,Open,2026-07-17 03:23:26.710,NULL,NULL,NULL
+183,Employee 183,Sales,Access,Low,Michael Brown,Resolved,2026-07-16 21:23:26.710,2026-07-17 01:23:26.710,4.00,4
+184,Employee 184,Operations,Security,Critical,Jessica Davis,Resolved,2026-07-16 15:23:26.710,2026-07-16 20:23:26.710,5.00,5
+185,Employee 185,Marketing,Hardware,High,Alex Johnson,In Progress,2026-07-16 09:23:26.710,2026-07-16 15:23:26.710,6.00,1
+186,Employee 186,Finance,Network,Medium,Sarah Williams,Resolved,2026-07-16 03:23:26.710,2026-07-16 10:23:26.710,7.00,2
+187,Employee 187,Human Resources,Software,Low,David Smith,Resolved,2026-07-15 21:23:26.713,2026-07-16 05:23:26.713,8.00,3
+188,Employee 188,IT,Access,Critical,Michael Brown,Resolved,2026-07-15 15:23:26.713,2026-07-16 00:23:26.713,9.00,4
+189,Employee 189,Sales,Security,High,Jessica Davis,Open,2026-07-15 09:23:26.713,NULL,NULL,NULL
+190,Employee 190,Operations,Hardware,Medium,Alex Johnson,In Progress,2026-07-15 03:23:26.713,2026-07-15 14:23:26.713,11.00,1
+191,Employee 191,Marketing,Network,Low,Sarah Williams,Resolved,2026-07-14 21:23:26.713,2026-07-15 09:23:26.713,12.00,2
+192,Employee 192,Finance,Software,Critical,David Smith,Resolved,2026-07-14 15:23:26.713,2026-07-14 16:23:26.713,1.00,3
+193,Employee 193,Human Resources,Access,High,Michael Brown,Resolved,2026-07-14 09:23:26.713,2026-07-14 11:23:26.713,2.00,4
+194,Employee 194,IT,Security,Medium,Jessica Davis,Resolved,2026-07-14 03:23:26.713,2026-07-14 06:23:26.713,3.00,5
+195,Employee 195,Sales,Hardware,Low,Alex Johnson,In Progress,2026-07-13 21:23:26.713,2026-07-14 01:23:26.713,4.00,1
+196,Employee 196,Operations,Network,Critical,Sarah Williams,Open,2026-07-13 15:23:26.713,NULL,NULL,NULL
+197,Employee 197,Marketing,Software,High,David Smith,Resolved,2026-07-13 09:23:26.713,2026-07-13 15:23:26.713,6.00,3
+198,Employee 198,Finance,Access,Medium,Michael Brown,Resolved,2026-07-13 03:23:26.713,2026-07-13 10:23:26.713,7.00,4
+199,Employee 199,Human Resources,Security,Low,Jessica Davis,Resolved,2026-07-12 21:23:26.717,2026-07-13 05:23:26.717,8.00,5
+200,Employee 200,IT,Hardware,Critical,Alex Johnson,In Progress,2026-07-12 15:23:26.717,2026-07-13 00:23:26.717,9.00,1
